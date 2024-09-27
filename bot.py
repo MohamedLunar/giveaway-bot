@@ -5,7 +5,7 @@ import random
 import os
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+# Load token from .env file
 TOKEN = os.getenv("TOKEN")
 
 # Define intents
