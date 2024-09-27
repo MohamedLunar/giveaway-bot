@@ -3,7 +3,6 @@ from discord.ext import commands
 import asyncio
 import random
 import os
-import dotenv
 from dotenv import load_dotenv
 
 load_dotenv(".env")
