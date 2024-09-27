@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
-
+import os
 # Define intents
 intents = discord.Intents.default()
 intents.messages = True  # Enable message content intent
