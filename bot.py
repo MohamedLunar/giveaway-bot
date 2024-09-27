@@ -3,6 +3,11 @@ from discord.ext import commands
 import asyncio
 import random
 import os
+from dotenv import load_dotenv
+
+load_dotenv(".env")
+TOKEN: str = os.getenv("TOKEN")
+
 # Define intents
 intents = discord.Intents.default()
 intents.messages = True  # Enable message content intent
@@ -55,5 +60,4 @@ async def start_giveaway(ctx, duration: int, *, prize: str):
         await ctx.send('ðŸŽ‰ No one participated in the giveaway.')
 
 # Remember to replace 'YOUR_BOT_TOKEN' with your bot's token
-token = env.TOKEN;
-bot.run(token)
+bot.run(TOKEN)
