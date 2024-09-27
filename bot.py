@@ -55,5 +55,5 @@ async def start_giveaway(ctx, duration: int, *, prize: str):
         await ctx.send('ðŸŽ‰ No one participated in the giveaway.')
 
 # Remember to replace 'YOUR_BOT_TOKEN' with your bot's token
-token = process.env.TOKEN;
+token = env.TOKEN;
 bot.run(token)
