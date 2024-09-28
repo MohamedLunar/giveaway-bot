@@ -33,3 +33,8 @@ python main.py
 - then go to startup and scroll down to **Additional Python packages** and type **discord** to install discord.py library
 - remember to edit your token and your status in [main.py](https://github.com/MohamedLunar/giveaway-bot/blob/main/main.py) file
 - after do all of those go to **console** and select **start** then the bot will say `logged in as {your.bot.name} successfully`
+# Command usage
+- to run the giveaway you should do
+`g!start <duration in seconds> <prize>`
+- other command
+`g!help`
