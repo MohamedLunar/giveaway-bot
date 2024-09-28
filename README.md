@@ -4,7 +4,7 @@
 # How to run this project
 - you can run this project by 2 ways
 ## 1 - From Termux
-- you should download [main.py](https://github.com/MohamedLunar/giveaway-bot/blob/main/main.py)
+- you should download [main.py](https://github.com/MohamedLunar/giveaway-bot/blob/main/main.py) and [requirements.txt](https://github.com/MohamedLunar/giveaway-bot/blob/main/requirements.txt)
 - updating data for install
 ``` bash
 apt update && apt upgrade
@@ -12,10 +12,15 @@ apt update && apt upgrade
 - allow access for run the file
 ``` bash
 termux-setup-storage
+cd /sdcard/download
 ```
 - install pakages
 ``` bash
 pkg install python
+```
+- install the requirements from [requirements.txt](https://github.com/MohamedLunar/giveaway-bot/blob/main/requirements.txt)
+``` bash
+pip install -r requirements.txt
 ```
 - run the file
 ``` bash
